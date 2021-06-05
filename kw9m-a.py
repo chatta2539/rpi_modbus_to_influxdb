@@ -11,7 +11,7 @@ volt_add = [0, 0x00A4, 0, 0x00AA]
 pf_add = [0, 0x00C2, 0, 0x00C5]
 current_add = [0, 0x00B4, 0, 0x00BC]
 kW_add = [0, 0x008C, 0, 0x0092]
-kWh_add = 0x0082
+kWh_add = 0x00CC
 temp_add = 0x01A2
 
 rtu = ModbusClientRtu(method = "rtu", port="/dev/ttyUSB0",stopbits = 1, bytesize = 8, parity = 'O', baudrate = 9600)
